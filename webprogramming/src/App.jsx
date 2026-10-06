@@ -96,30 +96,44 @@ function App() {
   return (
     <div>
       <div className='container'>
+        <h3>Navbar</h3>
         <NavbarUtama />
+        <h3>Header</h3>
         <Header />
+        <h3>Sapaan</h3>
         <Sapaan />
+        <h3>Status Login</h3>
         <StatusLogin />
         <ContohAturan />
         <main>
           <p>Selamat datang di dashboard pengelolaan keuangan!</p>
         </main>
+        <h3>Kartu Profil dan KartuProfilClass</h3>
         <KartuProfil nama="Desta Althaaf Yudhistira" pekerjaan="Mahasiswa" />
         <KartuProfilClass nama="HuTao" pekerjaan="My Kisah" />
+        <h3>Contoh Button</h3>
         <PrimaryButton />
         <DangerButton />
+        <h3>Contoh Counter</h3>
         <Counter />
+        <h3>Pengelola Aplikasi</h3>
         <PengelolaAplikasi />
+        <h3>UserProfileClass</h3>
         <UserProfileClass />
+        <h3>CounterClass</h3>
         <CounterClass />
+        <h3>Card</h3>
         <Card />
+        <h3>Profil</h3>
         <Profil />
-        <h3>Formulir</h3>
+        <h3>Formulir Terpisah dan Objek</h3>
         <FormTerpisah />
         <FormObjek />
+        <h3>Contoh Button Lainnya</h3>
         <ButtonSimpan />
         <ButtonEdit />
         <ButtonHapus />
+        <h3>Footer</h3>
         <Footer />
       </div>
     </div>
