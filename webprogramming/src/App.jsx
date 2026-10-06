@@ -10,6 +10,8 @@ import KartuProfilClass from './components/KartuProfilClass';
 import Counter from './components/Counter';
 import UserProfileClass from './components/UserProfilClass';
 import CounterClass from './components/CounterClass';
+import FormTerpisah from './components/FormTerpisah';
+import FormObjek from './components/FormObjek';
 import { PrimaryButton, DangerButton, ButtonSimpan, ButtonEdit, ButtonHapus } from './components/Button';
 
 
@@ -48,6 +50,9 @@ function ContohAturan() {
   return (
     <>
       <h3 className='judul'>Contoh Aturan JSX</h3>
+      <label htmlFor='nama'>Nama: </label>
+      <input id='nama' type='text' />
+      <br />
       <label htmlFor='email'>Email: </label>
       <input id='email' type='text' />
       <p style={{ color: 'red', fontSize: '12px' }}>Teks merah ukuran 12px</p>
@@ -109,6 +114,9 @@ function App() {
         <CounterClass />
         <Card />
         <Profil />
+        <h3>Formulir</h3>
+        <FormTerpisah />
+        <FormObjek />
         <ButtonSimpan />
         <ButtonEdit />
         <ButtonHapus />
